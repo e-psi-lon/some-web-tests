@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Couleur 🎨</title>
+    <link rel="stylesheet" href="./color.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers&display=swap"/>
+    <meta name="description" content="Générateur de couleurs">
+    <meta name="auteur" content="e_psi_lon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="colors">
+        <h1><marquee>COULEURㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤCOULEURㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤCOULEURㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤCOULEUR</marquee></h1>
+        <div>
+            <label for="red">Rouge</label>
+            <input type="range" id="red" name="red" class="color-slider" step="1" min="0" max="255">
+        </div>
+        <div>
+            <label for="green">Vert</label>
+            <input type="range" id="green" name="green" class="color-slider" step="1" min="0" max="255">
+        </div>
+        <div>
+            <label for="blue">Bleu</label>
+            <input type="range" id="blue" name="blue" class="color-slider" step="1" min="0" max="255">
+        </div>
+        <div id="color-box"></div>
+    </div>
+    <script src="./color.js"></script>
+</body>
+</html>

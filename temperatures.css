@@ -1,0 +1,43 @@
+#form {
+    margin: 5em auto;
+    width: 500px;
+    padding: 2em;
+    border: 2px solid lavender;
+    border-radius: 2em;
+    background: linear-gradient(#e9f7ef,white);
+    color:gray;
+    }
+    label {
+    display: inline-block;
+    width: 500px;
+    text-align: right;
+    font-family: Bangers, sans-serif;
+    }
+    input, textarea {
+    font: 1em sans-serif;
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid lavender;
+    margin:1em 0em;
+}
+    input:focus, textarea:focus {
+    border-color: mediumpurple;
+    }
+    textarea {
+    vertical-align: top;
+    height: 8em;
+    }
+    .button {
+    padding: 0px 160px;
+    margin-top:3em;
+    }
+    button {
+    padding:1em;
+    border-radius: 5em;
+    background-color:#e9f7ef;
+    font: 1.2em Bangers, sans-serif ;
+    color:gray;
+    margin:auto;
+    align-items: center;
+    }
+    

@@ -1,0 +1,85 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Afficher les bordures des tableaux */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* Mettre une bordure sur toutes les tr et td des tableaux, en % pas en px et que les cases soient des carrés */
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 33.333%; 
+    height: 33.333%;
+    font-size: 550%;
+    font-weight: bold;
+}
+
+td.player-x {
+    color: #ff2222;
+}
+
+td.player-o {
+    color: #2222ff;
+}
+
+
+button {
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.player-x {
+    background-color: #ff4848;
+}
+
+button.player-o {
+    background-color: #4848ff;
+}
+
+#play-button.player-x:active {
+    background-color: #ac1515;
+}
+
+#play-button.player-o:active {
+    background-color: #1515ac;
+}
+
+
+#start {
+    margin: auto;
+    text-align: center;
+}
+
+#new-game {
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#new-game:active {
+    background-color: #3e8e41;
+}
+
+#play-button {
+    margin-left: 1%;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 5px;
+    font-size: 16px;
+}
