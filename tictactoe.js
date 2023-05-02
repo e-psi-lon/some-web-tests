@@ -6,9 +6,9 @@ let BOARD = [
 let player = 'X';
 
 let inputElement = document.getElementById("play-input");
-let outputElement = document.getElementById("output");
-let statusElement = document.getElementById("status");
-let playButtonElement = document.getElementById("play-button");
+let outputElement = document.getElementById("output").innerHTML;
+let statusElement = document.getElementById("status").innerHTML;
+let playButtonElement = document.getElementById("play-button").innerHTML;
 
 const check_win = () => {
     for(const row of BOARD) if(row[0][1] === row[1][1] && row[1][1] === row[2][1] && row[0][1] !== "-") return true;
