@@ -9,9 +9,9 @@ const updateColor = () => {
     const blue = sliders[2].value;
     sliders[2].previousElementSibling.innerText = `Bleu (${blue})`;
     colorDiv.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
-    sliders[0].style.backgroundImage = `linear-gradient(to right, rgb(${red}, 0, 0), rgb(255, ${green}, ${blue}))`;
-    sliders[1].style.backgroundImage = `linear-gradient(to right, rgb(0, ${green}, 0), rgb(${red}, 255, ${blue}))`;
-    sliders[2].style.backgroundImage = `linear-gradient(to right, rgb(0, 0, ${blue}), rgb(${red}, ${green}, 255))`;
+    sliders[0].style.backgroundImage = `linear-gradient(to right, rgb(0, ${green}, ${blue}), rgb(255, ${green}, ${blue}))`;
+    sliders[1].style.backgroundImage = `linear-gradient(to right, rgb(${red}, 0, ${blue}), rgb(${red}, 255, ${blue}))`;
+    sliders[2].style.backgroundImage = `linear-gradient(to right, rgb(${red}, ${green}, 0), rgb(${red}, ${green}, 255))`;
 }
 
 sliders.forEach(slider => slider.addEventListener('input', updateColor))
